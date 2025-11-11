@@ -8,4 +8,3 @@ require_relative 'basket'
 require_relative 'delivery_rule'
 require_relative 'offers/promotion'
 require_relative 'offers/red_widget_promotion'
-

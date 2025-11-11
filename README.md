@@ -78,4 +78,3 @@ or
 
 rake test
 ```
-

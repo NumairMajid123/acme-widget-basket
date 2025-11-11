@@ -58,4 +58,3 @@ class ShoppingBasket
     Kernel.format('$%.2f', round_to_two_decimals(amount).to_f)
   end
 end
-

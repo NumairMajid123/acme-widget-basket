@@ -18,4 +18,3 @@ class ProductCatalog
     @products_by_code.key?(product_code)
   end
 end
-

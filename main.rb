@@ -18,4 +18,3 @@ basket = ShoppingBasket.new(product_catalog: product_catalog, shipping_calculato
 ARGV.each { |product_code| basket.add(product_code) }
 
 puts basket.total_formatted
-

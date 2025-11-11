@@ -9,4 +9,3 @@ class Product
     @price = price
   end
 end
-
