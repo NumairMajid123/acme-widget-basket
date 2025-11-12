@@ -4,7 +4,7 @@ require_relative 'test_helper'
 
 class ShoppingBasketTest < Minitest::Test
   def setup
-    @basket = ShoppingBasket.new(product_catalog: default_catalogue, shipping_calculator: default_delivery, promotions: default_offers)
+    @basket = ShoppingBasket.new(product_catalog: default_catalogue, shipping_calculator: default_shipping_calculator, promotions: default_promotions)
   end
 
   def test_b01_g01
@@ -31,6 +31,6 @@ class ShoppingBasketTest < Minitest::Test
   end
 
   def test_unknown_product
-    assert_raises(ArgumentError) { @basket.add('ZZZ') }
+    assert_raises(ArgumentError) { @basket.add('TestingProduct') }
   end
 end

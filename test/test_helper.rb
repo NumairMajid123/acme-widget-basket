@@ -12,10 +12,10 @@ def default_catalogue
                      ])
 end
 
-def default_delivery
+def default_shipping_calculator
   ShippingCalculator.new
 end
 
-def default_offers
+def default_promotions
   [RedWidgetPromotion.new]
 end

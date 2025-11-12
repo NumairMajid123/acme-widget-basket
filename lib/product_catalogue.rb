@@ -13,8 +13,4 @@ class ProductCatalog
   def find(product_code)
     @products_by_code.fetch(product_code) { raise ArgumentError, "Unknown product code: #{product_code}" }
   end
-
-  def contains?(product_code)
-    @products_by_code.key?(product_code)
-  end
 end

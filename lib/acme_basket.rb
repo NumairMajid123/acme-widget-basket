@@ -3,8 +3,8 @@
 # Main entry point to load all library components
 
 require_relative 'product'
-require_relative 'catalogue'
-require_relative 'basket'
-require_relative 'delivery_rule'
-require_relative 'offers/promotion'
-require_relative 'offers/red_widget_promotion'
+require_relative 'product_catalogue'
+require_relative 'shopping_basket'
+require_relative 'shipping_calculator'
+require_relative 'promotions/promotion'
+require_relative 'promotions/red_widget_promotion'

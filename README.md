@@ -25,18 +25,18 @@ acme-widget-basket/
 ├─ main.rb
 ├─ lib/
 │  ├─ acme_basket.rb
-│  ├─ catalogue.rb
+│  ├─ product_catalogue.rb
 │  ├─ product.rb
-│  ├─ basket.rb
-│  ├─ delivery_rule.rb
-│  └─ offers/
+│  ├─ shopping_basket.rb
+│  ├─ shipping_calculator.rb
+│  └─ promotions/
 │     ├─ promotion.rb
 │     └─ red_widget_promotion.rb
 └─ test/
    ├─ test_helper.rb
-   ├─ basket_test.rb
-   ├─ delivery_test.rb
-   └─ offers_test.rb
+   ├─ shopping_basket_test.rb
+   ├─ shipping_calculator_test.rb
+   └─ promotions_test.rb
 ```
 
 ## How It Works
